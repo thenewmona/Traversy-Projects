@@ -1,0 +1,149 @@
+/*Log to console section 2 lecture 6
+console.log('Hello World');
+console.log(123);
+console.log(true);
+var greeting = 'Hello';
+console.log(greeting);
+console.log([1, 2, 3, 4]);
+console.log({ a: 1, b: 2 });
+console.table({ a: 1, b: 2 });
+
+console.error('This is some error');
+console.clear();
+console.warn('this is a warning');
+console.time('Hello');
+console.log('Hello World');
+console.log('Hello World');
+console.log('Hello World');
+console.log('Hello World');
+console.log('Hello World');
+console.log('Hello World');
+console.timeEnd('Hello');
+*/
+/*lesson 2.6 variables var, let, const
+var name = 'Ramona Saintandre';
+console.log(name);
+name = 'David Saintandre';
+console.log(name);
+console.log(greeting);
+greeting = 'Hello';
+console.log(greeting);
+
+var firstName = 'ramona';
+var first_name = 'david';
+var FirstName = 'shae';*/
+
+// let name = 'Ramona Saintandre';
+// console.log(name);
+// name = 'David Saintandre';
+// console.log(name);
+
+// const name = "ramona";
+// console.log(name);
+// const greeting;
+
+// const person = {
+//   name: 'Ramona',
+//   age: 30
+// }
+// person.name = 'David';
+// person.age = 32;
+
+// console.log(person);
+
+// const numbers = [1, 2, 3, 4];
+
+// console.log(numbers);
+// numbers.push(6);
+
+// console.log(numbers);
+
+
+
+
+
+// //WINDOWS METHODS/ OBJECTS/ PROPERTIES 
+
+// //window.console.log(123);
+
+// //alert
+
+// //alert('Hello World');
+
+// //Prompt
+// // const input = prompt();
+// // alert(input);
+
+// //Confirm
+// // 
+
+// let val;
+
+// //outter height and width
+// val = window.outerHeight;
+// val = window.outerWidth;
+
+// //Inner height and width 
+// val = window.innerHeight;
+// val = window.innerWidth;
+
+// //scroll points
+
+// val = window.scrolly;
+// val = window.scrollx;
+
+
+// //location object 
+
+// val = window.location;
+// val = window.location.hostname;
+// val = window.location.port;
+// val = window.location.href;
+// val = window.location.search;
+
+// //redirect
+
+// //window.location.href = 'http://google.com';
+// // window.history.go(-2);
+
+// // 
+
+// //Navigator Object 
+// // val = window.navigator;
+// // val = window.navigator.appName;
+// // val = window.navigator.appVersion;
+// // val = window.navigator.userAgent;
+// // val =window.navigator.platform;
+// // val = window.navigator.vendor;
+// // val = window.navigator.language;
+// // console.log(val);
+
+//Block scope let and const 
+
+//Global scope 
+// var a = 1;
+// let b = 2;
+// const c = 3;
+
+// // function test() {
+// //   var a = 4;
+// //   let b = 5;
+// //   const c = 6;
+// //   console.log('Function scope: ', a, b, c);
+// // }
+// // test();
+
+// // if (true) {
+// //   //block scope
+// //   var a = 4;
+// //   var b = 5;
+// //   var c = 6;
+// //   console.log('If Scope: ', a, b, c);
+// // }
+
+// for(let a = 0 < 10; a++){
+//   console.log(`Loop: ${a}`){
+
+//   }
+// }
+// console.log('Global Scope: ', a, b, c);
