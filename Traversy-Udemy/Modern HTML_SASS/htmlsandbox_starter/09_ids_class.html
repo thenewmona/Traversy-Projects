@@ -20,6 +20,33 @@
   </style>
 </head>
 <body>
- 
+#main-header>h1{My Website}>p{A site about me}>ul#main-nav>
+<!-- (hdr#main-header>h1{MY Website}>p{A site about me})+(nav#main-nav>ul>li{text$}*3>a)#about>h3{About}>#contact>h3{Contact}+(ul>li*3>a{test})      -->
+<header id="main-header">
+  <h1>
+    MY Website
+    <p>A site about me</p>
+  </h1>
+</header>
+<nav id="main-nav">
+  <ul>
+    <li>text1<a href=""></a></li>
+    <li>text2<a href=""></a></li>
+    <li>text3<a href=""></a></li>
+  </ul>
+</nav>
+<div id="about">
+  <h3>
+    About
+    <div id="contact">
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="">test</a></li>
+        <li><a href="">test</a></li>
+        <li><a href="">test</a></li>
+      </ul>
+    </div>
+  </h3>
+</div>
 </body>
 </html>
